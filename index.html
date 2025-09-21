@@ -71,11 +71,17 @@
             </div>
         </section>
 
-        <div class="earth-image animated-spin">
-            <img src="images/earth.jpg" alt="Earth">
-        </div>
+        <section class="earth-image animated-spin">
+             <button id="robotSoundToggle" class="robot-toggle-button">
+                START ROBOT VOICE
+             </button>
+    <div class="earth-image">
+        <img src="images/earth.jpg" alt="Earth">
     </div>
-    <script src="script.js"></script>
-</body>
+    <audio id="robotSound" src="sounds/robot.mp3" preload="auto" loop></audio>
+       </section>
+    </div>
 
+    <script src="js/script.js"></script>
+</body>
 </html>
