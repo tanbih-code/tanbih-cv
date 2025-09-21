@@ -157,3 +157,38 @@ body {
         max-width: 300px;
     }
 }
+
+
+@media (max-width: 768px) {
+    .earth-image {
+        max-width: 300px;
+    }
+}
+
+/* Pindahkan kode tombol ke sini, di luar @media */
+.robot-toggle-button {
+    display: block;
+    margin: 10px auto;
+    padding: 12px 24px;
+    background-color: #000080; /* Warna biru navy */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.robot-toggle-button:hover {
+    background-color: #000066; /* Biru navy yang sedikit lebih gelap */
+}
+
+/* Biarkan kode @media tetap di bawahnya */
+@media (max-width: 768px) {
+    .earth-image {
+        max-width: 300px;
+    }
+    /* ... kode responsif lainnya ... */
+}
